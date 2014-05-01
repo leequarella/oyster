@@ -1,1 +1,3 @@
-### Welcome to CompoundJS ###
+`npm install`
+
+`nodemon server.coffee`
