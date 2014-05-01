@@ -1,0 +1,17 @@
+!= errorMessagesFor(user)
+.control-group
+  != form.label("firstName", false, {class: "control-label"})
+  .controls
+    != form.input("firstName")
+.control-group
+  != form.label("lastName", false, {class: "control-label"})
+  .controls
+    != form.input("lastName")
+.control-group
+  != form.label("email", false, {class: "control-label"})
+  .controls
+    != form.input("email")
+.control-group
+  != form.label("password", false, {class: "control-label"})
+  .controls
+    != form.input("password")
